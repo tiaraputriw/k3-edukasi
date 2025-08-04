@@ -3,11 +3,6 @@ layout: default
 title: KKN Tim 90 - Kelompok 3
 ---
 
----
-layout: default
-title: Beranda
----
-
 <div class="container mt-5">
   <div class="row">
     <!-- Kolom kiri -->
@@ -52,3 +47,4 @@ Dukuh Kupo berada di RW 03 terdiri dari RT 01, RT 02 dan RT 03 serta memiliki 2 
     </div>
   </div>
 </div>
+

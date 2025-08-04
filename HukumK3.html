@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentingnya K3 untuk Pengrajin</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navbar-container"></div>
+        <main class="main contaier py-4">
+            <h3>Dasar - Dasar Hukum K3</h3>
+                <p>1. Undang-Undang Nomor 1 Tahun 1970 tentang Keselamatan Kerja pada Pasal 3 & 9 yang Menyatakan kewajiban penyediaan fasilitas P3K (termasuk kotak P3K dan petugas terlatih) di semua tempat kerja.
+                    <br>2. Peraturan Menteri Ketenagakerjaan (Permenaker) No. 15 Tahun 2008 tentang P3K di Tempat Kerja  yang Mengatur standar minimal peralatan P3K, kualifikasi petugas, pelatihan, dan prosedur tanggap darurat.
+                    <br>3. Peraturan Pemerintah No. 50 Tahun 2012 tentang Penerapan SMK3  pada Pasal 11 yang Mewajibkan integrasi P3K dalam Sistem Manajemen K3 perusahaan, termasuk identifikasi risiko dan pelatihan berkala.
+                    <br>4. Permenaker No. 5 Tahun 2018 tentang K3 Lingkungan Kerja yang Menetapkan standar sanitasi, kualitas udara, dan psikologis kerja untuk mendukung efektivitas P3K.
+                    <br>5. PP No. 11 Tahun 2025 tentang THR dan Gaji ke-13 Aparatur Negara yang terletak pada Pasal 9 Ayat (14): Mengatur proporsi THR untuk PPPK berdasarkan masa kerja, termasuk implikasi tidak langsung pada jaminan kesehatan darurat.
+                    <br>6. Peraturan Bupati (Perbup) Boyolali No. 6 Tahun 2025 terletak pada Pasal 9 Ayat (14): Menegaskan kewajiban pemda menyediakan  alokasi dana APBD untuk jaminan kesehatan darurat pekerja UMKM, termasuk pengrajin tembaga. Ini mencakup penyediaan fasilitas P3K dasar di sentra kerajinan.
+                    <br>7. Perda Boyolali tentang Pengembangan UMKM 2023 pada Pasal 12 : Mewajibkan pelaku UMKM (termasuk pengrajin tembaga) memenuhi standar proteksi risiko kerja tinggi (peleburan logam, paparan panas, debu tembaga), termasuk pelatihan P3K spesifik dan APD standar industri.
+                    <br>8. Keputusan Dinas Tenaga Kerja Boyolali No. 3/2024 yang menetapkan standar kotak P3K UMKM kerajinan logam dengan komponen wajib: 
+                        <ul>
+                            <li>Salep luka bakar (min. 5 tube)</li>
+                            <li>Pencuci mata darurat (500 ml)</li>
+                            <li>Masker debu metalik N95 (min. 10 pcs)</li>
+                            <li>Sarung tangan tahan panas (suhu >200°C) (min. 5 pasang)</li>
+                        </ul>
+                </p>
+        </main>
+
+        <div id="footer-container"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
+  <!-- Script untuk include -->
+    <script>
+    // Memuat file navbar.html ke dalam #navbar-container
+        fetch('navbar.html')
+            .then(res => res.text())
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+
+        // Memuat file footer.html ke dalam #footer-container
+        fetch('footer.html')
+            .then(res => res.text())
+            .then(data => document.getElementById('footer-container').innerHTML = data);
+    </script>
+</body>
+</html>
